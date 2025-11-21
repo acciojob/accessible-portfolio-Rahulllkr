@@ -4,10 +4,34 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Accessible Portfolio</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+<h1 role="heading">My Accessible Portfolio</h1>
+    <nav role="navigation">
+        <a href="#about">About</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+    <img 
+        src="photo.jpg" 
+        alt="A photo" 
+        role="img" 
+        width="200"
+    >
+  <p id="about">
+        Hello! I'm a web developer passionate about building accessible and user-friendly applications.
+    </p>
+
+    <ul role="list" id="projects">
+        <li role="listitem">Responsive Portfolio Website</li>
+        <li role="listitem">JavaScript Weather App</li>
+        <li role="listitem">Task Manager API</li>
+    </ul>
+
+
     <script type="text/javascript" src="./script.js">
 </script>
 
